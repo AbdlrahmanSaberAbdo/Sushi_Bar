@@ -1,0 +1,172 @@
+/*General Rules*/
+body, html {
+	height: 100%;
+}
+body{
+	font-family: 'Indie Flower', cursive;
+	font-size: 100%;
+	background: url("../images/background/background2.jpg");
+	background-attachment: fixed;
+}
+#header{
+	height: 100%;
+}
+
+#content {
+	height: 100%;
+	width: 100%;
+	display: table;
+}
+
+#content-box {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#wrapper{
+	height: 100%;
+	background: url("../images/header6.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom: 1em solid red;
+}
+
+#header img{
+	width: 23em;
+	display: inline;
+}
+
+#header p {
+	font-size: 3em;
+	font-weight: bolder;
+	margin: 1em 0;
+}
+
+#header p:hover {
+	color: white;
+}
+
+#header #content a {
+	background-color: white;
+	font-size: 4em;
+	padding: 0.15em 0.5em;
+	color: blue;
+	text-decoration: none;
+	opacity: 0.6;
+	border: 0.15em solid black;
+}
+#header #content a:hover {
+	background-color: red;
+	opacity: 1;
+}
+/*Navbar*/
+.navbar{
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar button{
+    background-color:red!important;
+}
+.navbar button:hover{
+    background-color: black!important;
+}
+.navbar-brand{
+    font-size: 4em;
+    color: black!important;
+}
+.navbar a:not(.navbar-brand){
+    font-size:2em;
+    color: red!important;
+    font-weight: bolder;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover
+{
+    background-color: transparent;
+}
+.navbar a:not(.navbar-brand):hover{
+    color: black!important;
+}
+
+/* ====== start Section Port ========== */
+.port{
+    padding: 3em 2em;
+}
+.col-md-4 {
+    position: relative;
+}
+.port img{
+    width: 100%;
+    height: 30em;
+    border-radius: 2em;
+    transition: transform 2s ease-in-out;
+    margin:1.5em 0;
+}
+.port img:hover{
+    transform: scale(1.1)
+}
+.port h2{
+    position: absolute;
+    color: red;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-top: 0.15em solid black;
+    border-bottom: 0.15em solid black;
+    font-size: 5em;
+    display: none;
+}
+.port .col-md-4:hover h2{
+    display: block;
+}
+
+/* ====== start Section Form ========== */
+.form{
+    padding: 3em 2em;
+}
+.form h3, h1{
+    color: red;
+}
+.form p{
+    color: white;
+    font-size: 2em;
+}
+
+.formm{
+    opacity: 0.7;
+    background-color: black;
+    height: 60em;
+    padding: 2em 1em;
+}
+
+.formm button{
+    background-color: red;
+    color: #fff;
+    font-size: 2em;
+}
+
+.iframe{
+    height: 60em;
+    padding: 2em 1.5em;
+    background-color: white;
+}
+.iframe iframe{
+    height: 40em;
+}
+
+/*  ================= Footer ================  */
+
+footer .fa{
+    color: #337ab7;
+    font-size: 3.5em;   
+}
+footer h2{
+    color: red;
+    font-size: 3em;
+}
+footer h3{
+    color: red;
+    font-size: 2.5em;
+}
