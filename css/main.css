@@ -33,11 +33,6 @@ body{
 	border-bottom: 1em solid red;
 }
 
-#header img{
-	width: 23em;
-	display: inline;
-}
-
 #header p {
 	font-size: 3em;
 	font-weight: bolder;
